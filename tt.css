@@ -1,0 +1,185 @@
+main{
+	  background-position: center 0%;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: sans-serif;
+	background-color: Gray;
+
+}
+.news img,.sidebar img{
+	box-sizing: border-box;
+	margin-left: 2rem;
+	border: 1px solid black;
+}
+.sidebar{
+		box-sizing: border-box;
+		flex:1;
+	}
+	.pins{
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color:#6a757a;	
+}
+.articlecontent{
+	padding: 1rem;
+	font-size:25px;
+	padding-left:5rem;
+	padding-right:5rem;
+}
+h2{
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	font-family: Arial Black;
+	background-color:peru;
+}
+.header{
+	background-color: BlanchedAlmond;
+	margin-bottom: 1rem;
+}
+
+
+h3{
+	margin-left: 2rem;
+	font-family: Comic Sans MS;
+	  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: 1;
+  background-color:#36454F;
+  margin-top:7rem;
+  margin-left:66rem;
+  margin-right:0rem;
+  color:#F2F3F4;
+	
+}
+
+.h1{
+	font-family: papyrus;
+}
+
+.l3{
+	font-family:times new roman;
+	font-size:25px;
+}
+.l4{
+	margin-left: 2rem;
+}
+.leftbox {
+float:left;
+background:gray;
+width:33.33%;
+height:280px;
+}
+.middlebox{
+float:left;
+background:gray;
+width:33.3%;
+height:280px;
+}
+.rightbox{
+float:right;
+background:gray;
+width:33.3%;
+height:280px;
+}
+
+  .logo {
+  display: block;
+  max-width: 200px;
+  height: auto; 
+  margin: 10px; 
+}
+
+.line{
+	font-size: 1.5rem;
+	
+  
+}
+.h{
+	background:gray;
+}
+#r1{
+	margin-bottom: 1rem;
+	background:	#C0C0C0;
+	border:3px solid black;
+	border-radius: 1.5rem;
+	width:75;
+	height:35;
+	cursor: pointer;
+}
+.rate{
+	border-radius: 0.6rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	margin-top:1rem;
+	font-size:1.2rem;
+	background:	#C0C0C0;
+	font-family:Serif;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  background-color:#36454F;
+}
+.nav__logo {
+  width: 80px;
+  object-fit: contain;
+  cursor:pointer;
+}
+
+.nav__avatar {
+  width: 60px;
+  object-fit: contain;
+  margin-right: 2rem;
+  margin-left:-27rem;
+  cursor:pointer;
+}
+.element {
+
+}
+
+.element:hover {
+
+}
+.button {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  margin-top:1.5rem;
+  
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.im{
+	margin-left:2rem;
+}
+.pic:hover {
+  
+  transform: scale(1.1); 
+  cursor:pointer;
+}
